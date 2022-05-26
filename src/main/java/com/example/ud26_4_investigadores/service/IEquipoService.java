@@ -19,5 +19,5 @@ public interface IEquipoService {
 	public Equipo updateEquipo(Equipo equipo);
 
 	// Delete
-	public void deleteEquipo(Long codigo);
+	public void deleteEquipo(Long id);
 }
