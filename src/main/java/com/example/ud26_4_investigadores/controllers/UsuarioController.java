@@ -57,10 +57,12 @@ public class UsuarioController {
 		
 		usuarios_seleccionado = iUsuarioDAO.findById(id).get();
 		usuarios_seleccionado.setRole(usuario.getRole());
+		usuarios_seleccionado.setUsername(usuario.getUsername());
+		usuarios_seleccionado.setPassword(usuario.getPassword());
 		
-//		usuarios_actualizado = iUsuarioDAO.
+		usuarios_actualizado = iUsuarioDAO.save(usuario);
 		
-		return null;
+		return usuarios_actualizado;
 	}
 
 	@GetMapping("/users/")

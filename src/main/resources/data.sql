@@ -19,4 +19,4 @@
 -- (2, "2000-01-02", "2000-01-03", 98, 124),
 -- (3, "2000-01-03", "2000-01-04", 98, 124);
 
-INSERT INTO Usuario (username, password, role) VALUES ('admin', '$2a$10$XURPShQNCsLjp1ESc2laoObo9QZDhxz73hJPaEv7/cBha4pk0AgP.','admin');
+INSERT INTO Usuario (username, password, role) VALUES ('admin', '$2a$10$XURPShQNCsLjp1ESc2laoObo9QZDhxz73hJPaEv7/cBha4pk0AgP.','ROLE_ADMIN');
